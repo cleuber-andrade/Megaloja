@@ -83,11 +83,11 @@ li{
 
 .navigation{
     display: flex;
-    justify-content: space-between;
-    align-items: center;    
+    align-items: center; 
+    justify-content: space-between;      
 }
 
-.logo h1{
+.logo1 h1{
     font-size: 2.5rem;
 }
 
@@ -123,7 +123,7 @@ li{
 }
 
 @media only screen and (max-width: 768px){
-    .menu{
+    .menu{    
         position: fixed;
         top: 0;
         left: -100%;
@@ -135,8 +135,13 @@ li{
         z-index: 100;
     }
 
+    
     .menu.show{
         left: 0;
+    }
+
+    .logo1{
+        display: none;
     }
 
     .top-nav{

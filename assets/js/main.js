@@ -7,7 +7,7 @@ const navLeft = menu.getBoundingClientRect().left;
 
 navOpen.addEventListener('click',() =>{
     if (navLeft < 0){
-        menu.classList.add('show');
+        menu.classList.add('show');        
         document.body.classList.add('show');
         navBar.classList.add('show');
     }
@@ -15,7 +15,7 @@ navOpen.addEventListener('click',() =>{
 
 navClose.addEventListener('click',() =>{
     if (navLeft < 0){
-        menu.classList.remove('show');
+        menu.classList.remove('show');        
         document.body.classList.remove('show');
         navBar.classList.remove('show');
     }
