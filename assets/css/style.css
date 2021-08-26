@@ -74,5 +74,39 @@ li{
     width: 100%;
     min-height: 100vh;
     background: var(--third-color);
+    overflow: hidden;
+}    
+
+.nav{
+    padding: 1.6rem 0;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.logo h1{
+    font-size: 2.5rem;
+}
+
+.top-nav{
+    display: none;
+}
+
+.nav-list{
+    display: flex;    
+    align-items: center;
+}
+
+.nav-item:not(:last-child){
+    margin-right: 0.5rem;
+}
+
+.nav-link:link,
+.nav-link:visited{
+    padding: 0.8rem 1rem;
+    transition: all 300ms ease-in-out;     
 }
 
