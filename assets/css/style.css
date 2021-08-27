@@ -180,6 +180,7 @@ li{
     .menu.show .nav-list {
         display: flex;
         flex-direction: column;
+        margin-top: 2rem;
     }
 
     .nav-link:link,
