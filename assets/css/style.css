@@ -59,6 +59,13 @@ li{
     margin: 0 auto;
 }
 
+.header .hero-img{
+    position: absolute;
+    bottom: -10%;
+    right: 7%;
+    height: 70rem;   
+}
+
 @media only screen and (max-width: 1200px){
     .container{
         padding: 0 3rem;
@@ -121,6 +128,8 @@ li{
 .cart-icon{
     display: none;
 }
+
+
 
 @media only screen and (max-width: 768px){
     .menu{    
@@ -212,6 +221,11 @@ li{
     .nav.show{
         background: rgba(0, 0, 0, 0.8);
     }
+
+    .header .hero-img{
+        height: 55rem;
+        margin-right: -3rem; 
+    }
 }
 
 @media only screen and (max-width: 600px){
@@ -238,6 +252,11 @@ li{
         font-size: 3rem;
 
     }
+
+    .header .hero-img{
+        height: 60rem;
+        margin-right: -3rem;        
+    }
 }
 
 @media only screen and (max-width: 480px){
@@ -263,6 +282,11 @@ li{
         margin: -4rem 3rem;
         font-size: 3rem;
 
+    }
+
+    .header .hero-img{
+        height: 60rem;
+        margin-right: -3rem; 
     }
 }
 
