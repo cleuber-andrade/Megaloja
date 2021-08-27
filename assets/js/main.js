@@ -1,7 +1,7 @@
 const menu = document.querySelector('.menu');
 const navOpen = document.querySelector('.hamburguer');
 const navClose = document.querySelector('.close');
-const navBar = document.querySelector('.nav')
+const navBar = document.querySelector('.nav');
 
 const navLeft = menu.getBoundingClientRect().left;
 
