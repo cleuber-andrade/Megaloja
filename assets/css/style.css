@@ -63,9 +63,9 @@ li{
 
 .header .hero-img{
     position: absolute;
-    bottom: -10%;
-    right: 7%;
-    height: 70rem;
+    bottom: -5%;
+    right: 10%;
+    height: 80rem;
     object-fit: contain;   
 }
 
