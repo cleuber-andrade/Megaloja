@@ -178,7 +178,7 @@ li{
         top: 0;
         left: -100%;
         width: 80%;
-        max-width: 70rem;
+        max-width: 50rem;
         height: 100%;
         background: var(--primary-color);
         transition: all 500ms ease-in-out;
@@ -328,6 +328,21 @@ li{
     .header .hero-img{
         height: 60rem;
         margin-right: -3rem; 
+    }
+
+    .hero-contant{
+        position: absolute;
+        top: 25%;
+        left: -10%;        
+    }
+
+    .hero-contant h1 span{        
+        font-size: 4rem;
+    }
+
+    .btn{
+      font-weight: 600;  
+      font-size: 1.4rem;  
     }
 }
 
