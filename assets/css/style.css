@@ -107,6 +107,10 @@ li{
     border-radius: 25px;
 }
 
+.loja{
+    color: var(--sixth-color);
+}
+
 @media only screen and (max-width: 1200px){
      .container{
         padding: 0 3rem;
