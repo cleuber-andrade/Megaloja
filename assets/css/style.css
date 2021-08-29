@@ -174,7 +174,7 @@ li{
 @media only screen and (max-width: 912px){
     .header .hero-img{
         height: 70rem;
-        margin-right: -4rem; 
+        margin-right: -10rem; 
     }    
 
     .hero-contant{
@@ -184,7 +184,7 @@ li{
     }
 
     .hero-contant h1 span{        
-        font-size: 6rem;        
+        font-size: 5rem;        
     }
 
     .btn{
@@ -285,14 +285,14 @@ li{
     }
 
     .header .hero-img{
-        height: 60rem;
+        height: 70rem;
         margin-right: -3rem; 
     }    
 
     .hero-contant{
         position: absolute;
-        top: 25%;
-        left: 1%;        
+        top: 50%;
+        left: -4%;        
     }
 
     .hero-contant h1 span{        
