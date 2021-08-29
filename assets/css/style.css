@@ -108,7 +108,7 @@ li{
 }
 
 @media only screen and (max-width: 1200px){
-    .container{
+     .container{
         padding: 0 3rem;
     }
 
@@ -171,6 +171,27 @@ li{
 }
 
 
+@media only screen and (max-width: 912px){
+    .header .hero-img{
+        height: 70rem;
+        margin-right: -4rem; 
+    }    
+
+    .hero-contant{
+        position: absolute;
+        top: 50%;
+        left: -8%;        
+    }
+
+    .hero-contant h1 span{        
+        font-size: 6rem;        
+    }
+
+    .btn{
+      font-weight: 600;  
+      font-size: 1.4rem;  
+    }
+}
 
 @media only screen and (max-width: 768px){
     .menu{    
@@ -264,8 +285,23 @@ li{
     }
 
     .header .hero-img{
-        height: 45rem;
+        height: 60rem;
         margin-right: -3rem; 
+    }    
+
+    .hero-contant{
+        position: absolute;
+        top: 25%;
+        left: 1%;        
+    }
+
+    .hero-contant h1 span{        
+        font-size: 4rem;
+    }
+
+    .btn{
+      font-weight: 600;  
+      font-size: 1.4rem;  
     }
 }
 
@@ -297,6 +333,27 @@ li{
     .header .hero-img{
         height: 45rem;
         margin-right: -3rem;        
+    }
+
+
+    .header .hero-img{
+        height: 60rem;
+        margin-right: -3rem; 
+    }
+
+    .hero-contant{
+        position: absolute;
+        top: 25%;
+        left: -10%;        
+    }
+
+    .hero-contant h1 span{        
+        font-size: 4rem;
+    }
+
+    .btn{
+      font-weight: 600;  
+      font-size: 1.4rem;  
     }
 }
 
