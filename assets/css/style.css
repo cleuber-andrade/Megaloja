@@ -8,6 +8,7 @@
     --fifth-color: #fbb419;
     --sixth-color: #2e294e;
     --seventh-color: #fc7c7c;
+    --eighth-color: #f1f1f1;
 }
 
 *,
@@ -72,7 +73,7 @@ li{
 .hero-content{
     position: absolute;
     top: 50%;
-    left: -1%;
+    left: -10%;
     transform: translate(25%, -50%);
 }
 
@@ -150,7 +151,12 @@ li{
 .nav-list{
     display: flex;
     justify-content: center;    
-    align-items: center;    
+    align-items: center;
+        
+}
+
+.nav-list .nav-link:hover{
+    color: var(--sixth-color);    
 }
 
 .nav-item:not(:last-child){
@@ -409,3 +415,63 @@ li{
     }
 }
 
+
+.section{
+    padding: 10rem 0 5rem 0;
+}
+
+.advert-center{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 3rem;
+}
+
+.advert-box{
+    position: relative;
+    color: var(--primary-color);
+    height: 27rem;
+    border-radius: 1.6rem;
+    padding: 1.6rem;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.advert-box img{
+    position: absolute;
+    bottom: 0;
+    left: -20%;
+    height: 100%;
+    width: 35rem;
+    z-index: -1;
+}
+
+.advert-box:nth-child(1){
+    background: var(--fourth-color);
+}
+
+.advert-box:nth-child(2){
+    background: var(--third-color);
+}
+
+.advert-box:nth-child(3){
+    background: var(--fifth-color);
+}
+
+.advert-box .dotted{
+    position: relative;
+    height: 100%;
+    border: 2px dashed var(--eighth-color);
+    border-radius: 1rem;
+}
+
+.advert-box .content{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(5%, -50%);
+}
+
+.advert-box .content h2,
+.advert-box .content h4{
+    text-shadow: 5px 6px 0 rgba(37, 59, 112, 0.1);
+}
