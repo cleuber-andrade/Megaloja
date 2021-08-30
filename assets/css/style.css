@@ -148,8 +148,9 @@ li{
 }
 
 .nav-list{
-    display: flex;    
-    align-items: center;
+    display: flex;
+    justify-content: center;    
+    align-items: center;    
 }
 
 .nav-item:not(:last-child){
@@ -157,7 +158,7 @@ li{
 }
 
 .nav-link:link,
-.nav-link:visited{
+.nav-link:visited{    
     padding: 0.8rem 1rem;
     transition: all 300ms ease-in-out;     
 }
@@ -254,9 +255,7 @@ li{
 
     .menu.show .nav-list {
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;        
+        flex-direction: column;              
         margin-top: 2rem;
         padding: 0 2.5rem;
     }
