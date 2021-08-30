@@ -620,3 +620,27 @@ li{
 }
 
 /*produtos do Banner*/
+
+.product-banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50rem;
+    background: var(--sixth-color);
+    
+}
+
+.product-banner .left img{
+    object-fit: cover;
+    height: 87%;
+
+}
+
+.product-banner .right{
+    align-self: center;
+    text-align: center;
+    padding: 1.6rem;
+}
+
+.product-banner .content h2{
+
+}
