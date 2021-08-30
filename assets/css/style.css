@@ -642,5 +642,20 @@ li{
 }
 
 .product-banner .content h2{
+    color: var(--fifth-color);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
 
+.product-banner .content .discount{
+    color: var(--fourth-color);
+}
+
+.product-banner .content h1 span{
+    color: var(--eighth-color);
+    font-size: 6rem;
+    font-weight: 700;
+    display: block;
+    list-style: 1;
 }
