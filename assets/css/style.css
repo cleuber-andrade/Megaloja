@@ -554,8 +554,67 @@ li{
 }
 
 .rating{
-    color: var(--third-color);
-    
+    color: var(--third-color);    
 }
 
+.product-footer .price{
+    color: var(--fourth-color);
+    font-size: 2rem;
+}
 
+.product:hover .product-header::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 1rem 1rem 0 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    transition: all 500ms ease-in-out;
+}
+
+.product-header .icon{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%) scale(0);
+    opacity: 0;
+    z-index: 2;    
+    transition: all 500ms ease-in-out;
+}
+
+.product-header .icon span{
+    background: var(--primary-color);
+    font-size: 2.5rem;
+    display: block;
+    border-radius: 50%;
+    padding: 1.5rem 1.6rem;
+    line-height: 2rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.product-header .icon span i{
+    transition: all 500ms ease-in-out;
+}
+
+.product-header .icon span:not(:last-child){
+    margin-bottom: 1rem;
+}
+
+.product-header .icon span:hover{
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.product:hover .icon{
+    opacity: 1;
+    transform: translate(0, -50%) scale(1);
+}
+
+.product:hover .icon a{
+    display: block;
+    margin-bottom: 1rem;
+}
