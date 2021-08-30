@@ -69,25 +69,25 @@ li{
     object-fit: contain;   
 }
 
-.hero-contant{
+.hero-content{
     position: absolute;
     top: 50%;
     left: -1%;
     transform: translate(25%, -50%);
 }
 
-.hero-contant h2{
+.hero-content h2{
     color: var(--fourth-color);
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1rem;    
 }
 
-.hero-contant .discount{
+.hero-content .discount{
     color: var(--fifth-color);
 }
 
-.hero-contant h1 span{
+.hero-content h1 span{
     color: var(--sixth-color);
     text-shadow: 3px 3px 0 #f1f1f1, 4px 4px 0 #f1f1f1;
     font-size: 6rem;
@@ -181,13 +181,13 @@ li{
         margin-right: -10rem; 
     }    
 
-    .hero-contant{
+    .hero-content{
         position: absolute;
         top: 50%;
         left: -8%;        
     }
 
-    .hero-contant h1 span{        
+    .hero-content h1 span{        
         font-size: 5rem;        
     }
 
@@ -255,7 +255,10 @@ li{
     .menu.show .nav-list {
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;        
         margin-top: 2rem;
+        padding: 0 2.5rem;
     }
 
     .nav-link:link,
@@ -293,13 +296,13 @@ li{
         margin-right: -7rem; 
     }    
 
-    .hero-contant{
+    .hero-content{
         position: absolute;
         top: 50%;
         left: -4%;        
     }
 
-    .hero-contant h1 span{        
+    .hero-content h1 span{        
         font-size: 4rem;
     }
 
@@ -345,13 +348,13 @@ li{
         margin-right: -3rem; 
     }
 
-    .hero-contant{
+    .hero-content{
         position: absolute;
         top: 25%;
         left: -10%;        
     }
 
-    .hero-contant h1 span{        
+    .hero-content h1 span{        
         font-size: 4rem;
     }
 
@@ -391,13 +394,13 @@ li{
         margin-right: -3rem; 
     }
 
-    .hero-contant{
+    .hero-content{
         position: absolute;
         top: 25%;
         left: -10%;        
     }
 
-    .hero-contant h1 span{        
+    .hero-content h1 span{        
         font-size: 4rem;
     }
 
