@@ -659,3 +659,42 @@ li{
     display: block;
     list-style: 1;
 }
+
+@media only screen and(max-width: 996px){
+    .product-banner .content h1 span{
+        font-size: 5rem;        
+    }
+}
+
+@media only screen and(max-width: 768px){
+    .product-banner {
+        grid-template-columns: 1fr;      
+    }
+
+    .product-banner .left{
+        display: none;
+    }
+
+    .product-banner .content h1 span{
+        font-size: 4rem;
+    }
+
+    .product-banner .content h2{
+        font-size: 2rem;
+    }
+
+    .product-banner .content a{
+        padding: 1rem 1rem;
+    }
+}
+
+
+.testimonial-center{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 6rem;
+}
+
+.testimonial{
+    
+}
