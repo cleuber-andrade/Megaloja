@@ -631,7 +631,7 @@ li{
 
 .product-banner .left img{
     object-fit: cover;
-    height: 87%;
+    height: 100%;
 
 }
 
