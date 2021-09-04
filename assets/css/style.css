@@ -315,6 +315,34 @@ li{
       font-weight: 600;  
       font-size: 1.4rem;  
     }
+
+    .product-banner {        
+        grid-template-columns: 1fr;
+                                
+    }
+    
+    .product-banner .left{
+        display: none;
+    } 
+    
+    .product-banner .right{
+       position: absolute;
+       top: 76%; 
+       left: 15%;
+        
+    }
+
+    .product-banner .content h1 span{
+        font-size: 3.5rem;        
+    }
+    
+    .product-banner .content h2{
+        font-size: 1.7rem;
+    }
+
+    .product-banner .content a{
+       padding: 1rem 3rem;
+    }
 }
 
 @media only screen and (max-width: 600px){
@@ -367,6 +395,15 @@ li{
       font-weight: 600;  
       font-size: 1.4rem;  
     }
+
+
+    .product-banner .right{
+        position: absolute;
+        top: 86%; 
+        left: 4%;
+         
+     }
+    
 }
 
 @media only screen and (max-width: 480px){
@@ -412,7 +449,14 @@ li{
     .btn{
       font-weight: 600;  
       font-size: 1.4rem;  
-    }
+    } 
+    
+    .product-banner .right{
+        position: absolute;
+        top: 86.5%; 
+        left: 1%;
+         
+     }
 }
 
 /*section Advert*/
@@ -657,7 +701,7 @@ li{
     font-size: 5rem;
     font-weight: 700;
     display: block;
-    list-style: 1;
+    line-height: 1;
 }
 
 @media only screen and(max-width: 996px){
@@ -665,29 +709,6 @@ li{
         font-size: 5rem;        
     }
 }
-
-@media only screen and(max-width: 768px){
-    .product-banner {
-        grid-template-columns: 1fr;      
-    }
-
-    .product-banner .left{
-        display: none;
-    }
-
-    .product-banner .content h1 span{
-        font-size: 4rem;
-    }
-
-    .product-banner .content h2{
-        font-size: 2rem;
-    }
-
-    .product-banner .content a{
-        padding: 1rem 1rem;
-    }
-}
-
 
 .testimonial-center{
     display: grid;
