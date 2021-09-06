@@ -23,6 +23,8 @@ navClose.addEventListener('click',() =>{
     }
 });
 
+
+
 //fix-nav
 
 const navHeight = navBar.getBoundingClientRect().height;
