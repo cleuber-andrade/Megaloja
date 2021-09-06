@@ -112,7 +112,7 @@ li{
     color: var(--sixth-color);
 }
 
-@media only screen and (max-width: 1200px){
+@media only all and (max-width: 1200px){
      .container{
         padding: 0 3rem;
     }
@@ -132,6 +132,16 @@ li{
 
 .nav{
     padding: 1.6rem 0;
+}
+
+.nav.fix-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--third-color);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 999;
 }
 
 .navigation{
@@ -182,7 +192,7 @@ li{
 }
 
 
-@media only screen and (max-width: 912px){
+@media only all and (max-width: 912px){
     .header .hero-img{
         height: 70rem;
         margin-right: -10rem; 
@@ -204,7 +214,7 @@ li{
     }
 }
 
-@media only screen and (max-width: 768px){
+@media only all and (max-width: 768px){
     .menu{    
         position: fixed;
         top: 0;
@@ -342,10 +352,10 @@ li{
 
     .product-banner .content a{
        padding: 1rem 3rem;
-    }
+    }    
 }
 
-@media only screen and (max-width: 600px){
+@media only all and (max-width: 600px){
     .nav-list{
         display: none;
         padding: 0 1rem;       
@@ -406,7 +416,7 @@ li{
     
 }
 
-@media only screen and (max-width: 480px){
+@media only all and (max-width: 480px){
     .nav-list{
         display: none;
         padding: 0 1rem;       
@@ -704,18 +714,138 @@ li{
     line-height: 1;
 }
 
-@media only screen and(max-width: 996px){
+@media all and (max-width: 996px){
     .product-banner .content h1 span{
         font-size: 5rem;        
     }
 }
 
+/*Depoimentos*/
+
 .testimonial-center{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 6rem;
+    gap: 7rem;
 }
 
 .testimonial{
-    
+    position: relative;
+    padding: 5rem;
+    background-color: var(--primary-color);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    transition: all 300ms ease-in-out;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.testimonial:hover{
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4);
+    transform: translateY(-1rem);
+}
+
+.testimonial span{
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    font-size: 12rem;
+    transform: translate(-50% 0);
+    line-height: 1;
+    font-family: sans-serif;
+}
+
+.testimonial p{
+    margin: 2rem 0 1rem 0;    
+}
+
+.testimonial .rating{
+    margin-bottom: 1rem;    
+}
+
+.testimonial .img-cover{
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.testimonial .img-cover img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonial h4{
+    margin-top: 1rem;
+}
+
+/*Logo marcas*/
+
+.brands-center{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 3rem;
+}
+
+.brand{
+    height: 8rem;
+    width: 8rem;
+    margin: 0 auto;
+}
+
+.brand img{
+   object-fit: contain;
+}
+
+@media only all and (max-width:768px){
+    .brands-center{        
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+}
+
+/*FOOTER*/
+
+.footer{
+    background-color: var(--sixth-color);
+    padding: 6rem 1rem;
+    line-height: 3rem;
+}
+
+.footer-center{
+    margin-right: 1rem;    
+} 
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: var(--primary-color);
+}
+
+.footer-center a:link,
+.footer-center a:visited{
+    display: block;
+    color: var(--eighth-color);
+    font-size: 1.4rem;
+    transition: 0.6s;    
+}
+
+.footer-center a:hover{
+    color: var(--secondary-color);
+}
+
+.footer-center div{
+    color: var(--eighth-color);
+    font-size: 1.4rem;
+}
+
+.footer-center h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 1rem 0 1rem 0;    
+}
+
+@media only all and (max-width: 768px){
+    .footer-container{
+        grid-template-columns: 1fr;       
+    }
 }
