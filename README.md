@@ -13,6 +13,7 @@ Praticar conhecimentos obre HTML5, CSS3 e JavaScript
 
 -Explorar a utilização de interação da pagina com JS;
 -Aprimorar os conhecimentos em HTML e CSS;
+-Site Responsivo;
 -Utilização de GSAP - Biblioteca JS.
 
 ```
