@@ -28,6 +28,15 @@ Praticar conhecimentos obre HTML5, CSS3 e JavaScript
 ## :pager: Tela principal da Site Megaloja
 
  <img src="https://github.com/cleuber-andrade/Megaloja/blob/main/assets/img/pagina%20principal.jpg" alt="Tela Principal">
+ 
+## :pager: Outras páginas do site
+
+ <img src="https://github.com/cleuber-andrade/Megaloja/blob/main/assets/img/outraspaginas1.jpg" alt="tela 1"> 
+ <img src="https://github.com/cleuber-andrade/Megaloja/blob/main/assets/img/outraspaginas2.jpg" alt="tela 2">
+ 
+## :globe_with_meridians: Link para acessar site no GitHubPages
+
+Para visualizar o site no GitHubPages <a href="https://cleuber-andrade.github.io/Megaloja/" target="_blank">Clique aqui</a> 
 
 ## 👷 Como rodar
 
