@@ -64,7 +64,7 @@ links.map(link => {
 });
 
 
-//efeitos pagina principal
+//efeitos pagina principal usando GSAP
 gsap.from('.logo', { opacity: 0, duration: 1, delay: 0.5, y: -10});
 gsap.from('.hamburguer', { opacity: 0, duration: 1, delay: 1, x: 20});
 gsap.from('.hero-img', { opacity: 0, duration: 1, delay: 1.5, x: 200});
