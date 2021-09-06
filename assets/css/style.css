@@ -144,6 +144,13 @@ li{
     z-index: 999;
 }
 
+.nav.fix-nav .nav-link,
+.nav.fix-nav .logo,
+.nav.fix-nav .cart-icon,
+.nav.fix-nav .hamburguer{
+    color: var(--secondary-color);
+}
+
 .navigation{
     display: flex;
     align-items: center; 
@@ -235,7 +242,7 @@ li{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background: var(--secondary-color);
+        background: var(--third-color);
         padding: 1rem 1.6rem;
     }
 
